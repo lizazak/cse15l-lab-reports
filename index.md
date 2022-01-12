@@ -1,7 +1,4 @@
 Hello!
-
-![Image](logo.png)
-
 # Heading 1
 ## Heading 2
 ### List of items
@@ -23,3 +20,4 @@ Here is a line:
 code block
 System.out.println("Hello, world!")
 ```
+![Image](logo.png)
