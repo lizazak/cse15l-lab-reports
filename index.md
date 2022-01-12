@@ -1,6 +1,6 @@
 Hello!
 
-![Image](ucsd-logo-1.jpeg)
+![Image](logo.png)
 
 # Heading 1
 ## Heading 2
