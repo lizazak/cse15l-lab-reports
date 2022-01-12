@@ -14,3 +14,12 @@ Hello!
 
 This is a link to the CSE 15L page: [CSE 15L Page](https://ucsd-cse15l-w22.github.io/)
 
+Here is a line:
+---
+
+`inline code`
+
+```
+code block
+System.out.println("Hello, world!")
+```
