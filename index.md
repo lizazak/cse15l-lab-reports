@@ -19,5 +19,6 @@ Here is a line:
 ```
 code block
 System.out.println("Hello, world!")
+code
 ```
 ![Image](logo.png)
