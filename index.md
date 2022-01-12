@@ -1,4 +1,7 @@
 Hello!
+
+[Lab Report 1](lab-report-1-week-2.html)
+
 # Heading 1
 ## Heading 2
 ### List of items
