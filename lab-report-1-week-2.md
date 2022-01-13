@@ -1,3 +1,4 @@
-**Here is a screenshot from lab 1:**
+[Back to main page](index.html)
 
-![image](Screenshot.png)
+**Here is a screenshot from lab 1:**
+pretend there's an image here...
