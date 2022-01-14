@@ -11,7 +11,7 @@ Helpful Links: [Back to main page](index.html)
 ## Step 2: Remotely Connecting
 1. To connect to a remote server for your class, type ssh + SPACE + the name of your course specific account so it looks like this: `` ssh *course-specific account*@ieng6.ucsd.edu ``.
 
-Example: ![Image](remotely_connecting1.png)
+Example: ![Image](connecting_screenshot.png)
 2. blah
 
 ## Step 3: Trying Some Commands
