@@ -1,10 +1,12 @@
-[Back to main page](index.html)
+Helpful Links: [Back to main page](index.html)
 
 # Week 2 Lab Report - How To Use ieng6
 
 ## Step 1: Installing VS Code
-1. do this
-2. do this 
+1. Go to the website [https://code.visualstudio.com/](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
+2. Open VS Code and try creating new file. Your screen should look like this:
+
+![Image](vscode_setup.png)
 
 ## Step 2: Remotely Connecting
 1. do this
