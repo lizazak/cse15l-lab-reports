@@ -4,7 +4,7 @@
 
 ## Step 1: Installing VS Code
 1. Go to the [Visual Studio Homepage](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
-2. Open VS Code and try creating new file. Your screen should look like this:
+2. Open VS Code and try creating a new file. Your screen should look like this:
 
 ![Image](vscode_setup1.png)
 
