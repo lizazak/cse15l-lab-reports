@@ -3,7 +3,7 @@
 [Back to main page](index.html)
 
 ## Step 1: Installing VS Code
-1. Go to the website [Visual Studio Homepage](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
+1. Go to the [Visual Studio Homepage](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
 2. Open VS Code and try creating new file. Your screen should look like this:
 
 ![Image](vscode_setup1.png)
@@ -11,15 +11,15 @@
 ## Step 2: Remotely Connecting
 1. To connect to a remote server for your class, first open the terminal in VS code, click Terminal in the top bar and then click New Terminal. 
 
-2. Type ssh + SPACE + the name of your course specific account so it looks like this: `` ssh *course-specific account*@ieng6.ucsd.edu ``.
+2. Type ssh + SPACE + the name of your course specific account so it looks like this: `` ssh *course-specific account*@ieng6.ucsd.edu `` in the terminal.
 
 Example: ![Image](connecting_screenshot.png)
 
-3. You should then be prompted for password. If yours is not working go to the website [UCSD Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) (as shown in screenshot) and change the password for your course-specific account.
+3. You should then be prompted for a password. If yours is not working go to the website [UCSD Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) (as shown in screenshot) and change the password for your course-specific account.
 
 ![Image](remotely_connecting2.png)
 
-3. After you log-in using your password in the terminal you should see an output like this:
+3. After you log in using your password in the terminal you should see an output like this:
 
 ![Image](remotely_connecting3.png)
 
@@ -30,16 +30,16 @@ Example: ![Image](connecting_screenshot.png)
 
 ![Image](trying_commands.png)
 
-4. To exit the remote server, click CTRL + D.
+4. To exit the remote server, click CTRL + D or type `` exit `` and hit enter.
 
 ## Step 4: Moving Files with `` scp ``
 1. In the terminal, write the command `` scp *filename* *account name*@ieng6.ucsd.edu:~./ ``, where the filename is an existing file on your computer.
 
-2. You should be prompted to enter your password for the account. After you will get an output that looks like this:
+2. Type in your password for your remote account. After you will get an output that looks like this:
 
 ![Image](scp1.png)
 
-3. Now, if you follow the `` ssh `` instrutions to log-in to your remote server, the file will now be in the main directory, and you can run it remotely using javac, java commands:
+3. Now, if you follow the `` ssh `` instrutions to log-in to your remote server, the file will appear in the main directory, and you can run it remotely using javac, java commands:
 
 ![Image](scp.png)
 
@@ -61,4 +61,4 @@ Example: ![Image](connecting_screenshot.png)
 
 ![Image](efficient.png)
 
-**Thank you for reading through Liza Zakharova's Tutorial on how to use the terminal and remote server!**
+**Thank you for reading through Liza Zakharova's tutorial on how to use the terminal and remote server!**
