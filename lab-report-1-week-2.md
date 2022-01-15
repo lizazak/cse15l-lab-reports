@@ -3,20 +3,32 @@ Helpful Links: [Back to main page](index.html)
 # Week 2 Lab Report - How To Use ieng6
 
 ## Step 1: Installing VS Code
-1. Go to the website [https://code.visualstudio.com/](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
+1. Go to the website [Visual Studio Homepage](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
 2. Open VS Code and try creating new file. Your screen should look like this:
 
 ![Image](vscode_setup.png)
 
 ## Step 2: Remotely Connecting
-1. To connect to a remote server for your class, type ssh + SPACE + the name of your course specific account so it looks like this: `` ssh *course-specific account*@ieng6.ucsd.edu ``.
+1. To connect to a remote server for your class, first open the terminal in VS code, click Terminal in the top bar and then click New Terminal. 
+
+2. Type ssh + SPACE + the name of your course specific account so it looks like this: `` ssh *course-specific account*@ieng6.ucsd.edu ``.
 
 Example: ![Image](connecting_screenshot.png)
-2. blah
+
+3. You should then be prompted for password. If yours is not working go to the website [UCSD Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) (as shown in screenshot) and change the password for your course-specific account.
+
+![Image](remotely_connecting2.png)
+
+3. After you log-in in the Terminal you should see an output like this in the terminal:
+
+![Image](remotely_connecting3.png)
 
 ## Step 3: Trying Some Commands
-1. do this
-2. do this
+1. In the remote server, type `` ls ``. This will provide a list of files in that directory (folder). Folders in the list will be highlighted blue.
+2. Now try opening a folder by typing `` cd *folder name* ``. Type the `` ls `` command again.
+3. Notice no files show up. Now type `` ls -a ``. -a reveals the hidden files in the folder. Your terminal should look like this.
+
+![Image](trying_commands.png)
 
 ## Step 4: Moving Files with `` scp ``
 1. do this
