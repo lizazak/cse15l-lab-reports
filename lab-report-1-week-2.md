@@ -1,12 +1,12 @@
 # Week 2 Lab Report - How To Use ieng6
 
-Helpful Links: [Back to main page](index.html)
+[Back to main page](index.html)
 
 ## Step 1: Installing VS Code
 1. Go to the website [Visual Studio Homepage](https://code.visualstudio.com/) and download Visual Studio Code to your computer.
 2. Open VS Code and try creating new file. Your screen should look like this:
 
-![Image](vscode_setup.png)
+![Image](vscode_setup1.png)
 
 ## Step 2: Remotely Connecting
 1. To connect to a remote server for your class, first open the terminal in VS code, click Terminal in the top bar and then click New Terminal. 
@@ -55,10 +55,10 @@ Example: ![Image](connecting_screenshot.png)
 ![Image](key2.png)
 
 ## Step 6: Optimizing Remote Running
-1. To optimize running, you can use the UP ARROW key to find/copy previous commands you've written.
+1. To optimize running, you can use the UP arrow key to find/copy previous commands you've written.
 
 2. To make running more efficient, you can use semi-colons to separate commands in the same line, like in the example below:
 
 ![Image](efficient.png)
 
-Thank you for reading through Liza Zakharova's Tutorial on how to use the terminal and remote server!
+**Thank you for reading through Liza Zakharova's Tutorial on how to use the terminal and remote server!**
