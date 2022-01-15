@@ -26,29 +26,29 @@ Example: ![Image](connecting_screenshot.png)
 ## Step 3: Trying Some Commands
 1. In the remote server, type `` ls ``. This will provide a list of files in that directory (folder). Folders in the list will be highlighted blue.
 2. Now try opening a folder by typing `` cd *folder name* ``. Type the `` ls `` command again.
-3. Notice no files show up. Now type `` ls -a ``.The command -a reveals the hidden files in the folder. Your terminal should look like this:
+3. Notice no files show up. Now type `` ls -a ``. The command -a reveals the hidden files in the folder. Your terminal should look like this:
 
 ![Image](trying_commands.png)
 
 4. To exit the remote server, click CTRL + D or type `` exit `` and hit enter.
 
 ## Step 4: Moving Files with `` scp ``
-1. In the terminal, write the command `` scp *filename* *account name*@ieng6.ucsd.edu:~./ ``, where the filename is an existing file on your computer.
+1. In the terminal, write the command `` scp *filename* *account name*@ieng6.ucsd.edu:~./ ``, where the filename is an existing file in the directory you're currently in.
 
-2. Type in your password for your remote account. After you will get an output that looks like this:
+2. Type in your password for your remote account. After, you will get an output that looks like this:
 
 ![Image](scp1.png)
 
-3. Now, if you follow the `` ssh `` instrutions to log-in to your remote server, the file will appear in the main directory, and you can run it remotely using javac, java commands:
+3. Now, if you follow the `` ssh `` instrutions to log-in to your remote server, the file will appear in the main directory, and you can run it remotely using javac and java commands if it is a java file:
 
 ![Image](scp.png)
 
 ## Step 5: Setting an SSH Key
-1. In your home directory terminal (not remote server), type `` ssh-keygen ``. Click ENTER once, then type a passphrase (something shorter than your password), then click ENTER again. Your terminal after typing the command should look like this:
+1. In your home directory terminal (not remote server), type `` ssh-keygen ``. Click ENTER once, then type a passphrase (something shorter than your password), then click ENTER again. Your terminal after typing the commands should look like this:
 
 ![Image](key1.png)
 
-2. Now copy the public key by typing the command `` scp /Users/liza_zakharova/.ssh/id_rsa.pub cs15lwi22acb@ieng6.ucsd.edu:~/.ssh/authorized_keys ``, but replace the username with your username and account with your course-specific account.
+2. Now copy the public key by typing the command `` scp /Users/liza_zakharova/.ssh/id_rsa.pub cs15lwi22acb@ieng6.ucsd.edu:~/.ssh/authorized_keys `` (with a space between ".pub" and "cs15l..."), but replace the username with your username and account with your course-specific account.
 
 3. Now try logging in to your remote account. You should be prompted for your passphrase instead of a password:
 
