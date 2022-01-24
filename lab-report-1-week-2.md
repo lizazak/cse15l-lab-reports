@@ -55,10 +55,14 @@ Example: ![Image](connecting_screenshot.png)
 ![Image](key2.png)
 
 ## Step 6: Optimizing Remote Running
-1. To optimize running, you can use the UP arrow key to find/copy previous commands you've written.
+1. To optimize running, you can use the UP arrow key to find/copy previous commands you've written, as well as use semi-colons to separate commands in the same line. Let's assume you previously ran the command ``javac WhereAmI.java; java WhereAmI `` while in the remote server, but now you want to change and re-run the program.
 
-2. To make running more efficient, you can use semi-colons to separate commands in the same line, like in the example below:
+1. Try making a *local* edit to your java file. Then type `` scp *filename* *account name*@ieng6.ucsd.edu:~./ `` to copy the file to the server. Now log in to your remote server like you normally would (Ex: Type `` ssh cs15lwi22acb@ieng6.ucsd.edu ``).
+
+2. Now, instead re-typing your javac and java command you can simply click the UP arrow to retrieve the command, saving 33 keystrokes, and click Enter to run your program, as shown in the image below: 
 
 ![Image](efficient.png)
+
+4. As you make more changes, you can use the UP arrow to retrieve the scp and ssh commands instead of re-typing them each time, saving 31 keystrokes for the ssh command and 48 for the scp command.
 
 **Thank you for reading through Liza Zakharova's tutorial on how to use the terminal and remote server!**
