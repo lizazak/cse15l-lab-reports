@@ -8,12 +8,14 @@ Below are three bugs and corresponding code changes I made while working on the 
 
 2-3 description of relationship between bug, symptom, failure-inducing input. The link for the test file containing the failure inducing input that was causing the symptom is below, as well as the output due to the bug:
 
-Link to page: [my-test-file.md](my-test-file.md)
-Link to page on Github: [https://github.com/lizazak/markdown-parse/blob/main/my-test-file.md](https://github.com/lizazak/markdown-parse/blob/main/my-test-file.md)
+Link to page: [my-test-file2.md](my-test-file2.md)
+Link to page on Github: [https://github.com/lizazak/markdown-parse/blob/main/my-test-file2.md](https://github.com/lizazak/markdown-parse/blob/main/my-test-file2.md)
 
-![Image](failing-output-1.png)
+![Image](image-failing-output.png)
 
-Image of screenshot change in github
+Below is the code change difference that fixed the bug:
+
+![Image](fixed-code1.png)
 
 ## Change #2
 
@@ -22,6 +24,8 @@ Image of screenshot change in github
 Link to test file
 
 show screenshot of output of running file where failing (in VS code)
+
+Below is the code change difference that fixed the bug:
 
 Image of screenshot change in github
 
@@ -32,5 +36,7 @@ Image of screenshot change in github
 Link to test file
 
 show screenshot of output of running file where failing (in VS code)
+
+Below is the code change difference that fixed the bug:
 
 Image of screenshot change in github
