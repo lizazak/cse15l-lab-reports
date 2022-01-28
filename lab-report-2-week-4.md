@@ -6,11 +6,12 @@ Below are three bugs and corresponding code changes I made while working on the 
 
 ## Change #1
 
-2-3 description of relationship between bug, symptom, failure-inducing input. The link for the test file containing the failure inducing input that was causing the symptom is below:
+2-3 description of relationship between bug, symptom, failure-inducing input. The link for the test file containing the failure inducing input that was causing the symptom is below, as well as the output due to the bug:
 
-Link to test file
+Link to page: [my-test-file.md](my-test-file.md)
+Link to page on Github: [https://github.com/lizazak/markdown-parse/blob/main/my-test-file.md](https://github.com/lizazak/markdown-parse/blob/main/my-test-file.md)
 
-show screenshot of output of running file where failing (in VS code)
+![Image](failing-output-1.png)
 
 Image of screenshot change in github
 
