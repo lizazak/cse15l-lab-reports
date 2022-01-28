@@ -2,12 +2,12 @@
 
 [Back to main page](index.html)
 
-Below are three bugs and corresponding code changes I made while working on the MarkdownParse.java file with my group:
+**Below are three bugs and corresponding code changes I made while working on the MarkdownParse.java file with my group.**
 
 ## Change #1
  
 Description of bug:
-The failure-inducing output was a markdown file with an image, and it caused symptom of printing the image link, even though it wasn't a webpage link. This symptom was caused by a bug in the method, where the method wasn't checking for exclamation marks that could identify if the link was an image.
+The failure-inducing output was a markdown file with an image, and it caused the symptom of printing the image link, even though it wasn't a webpage link. This symptom was caused by a bug in the method, where the method wasn't checking for exclamation marks that could identify if the link was an image.
 
 The link for the test file containing the failure inducing input that was causing the symptom is below, as well as the output due to the bug:
 
