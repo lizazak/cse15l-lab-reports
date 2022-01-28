@@ -12,7 +12,7 @@ The failure-inducing output was a markdown file with an image, and it caused the
 
 #### The link for the test file containing the failure-inducing input that was causing the symptom is below, as well as the output due to the bug:
 
-Link to page: [my-test-file2.md](my-test-file2.md)
+Link to page: [my-test-file2.html](my-test-file2.html)
 
 Link to page on Github: [https://github.com/lizazak/markdown-parse/blob/main/my-test-file2.md](https://github.com/lizazak/markdown-parse/blob/main/my-test-file2.md)
 
@@ -30,7 +30,7 @@ The failure-inducing output was a markdown file with two typical links. Because 
 
 #### The link for the test file containing the failure-inducing input that was causing the symptom is below, as well as the output due to the bug:
 
-Link to page: [test-file.md](test-file.md)
+Link to page: [test-file.html](test-file.html)
 
 Link to page on Github: [https://github.com/lizazak/markdown-parse/blob/main/test-file.md](https://github.com/lizazak/markdown-parse/blob/main/test-file.md)
 
@@ -48,7 +48,7 @@ The failure-inducing output was a file where there was a declared link but there
 
 #### The link for the test file containing the failure-inducing input that was causing the symptom is below, as well as the output due to the bug:
 
-Link to page: [my-test-file.md](my-test-file.md)
+Link to page: [my-test-file.html](my-test-file.html)
 
 Link to page on Github: [https://github.com/lizazak/markdown-parse/blob/main/my-test-file.md](https://github.com/lizazak/markdown-parse/blob/main/my-test-file.md)
 
