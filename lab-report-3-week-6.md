@@ -10,11 +10,17 @@ Command to copy: ``scp -r *.java *.md lib/ makefile ieng6:markdown-parse/``
 
 ### Logging on to ieng6 account and compiling/running tests
 
+After copying the directory, it should appear on the remote server so you can run it.
+
+Commands:
+
+- ``ssh ieng6``
+
+- ``cd markdown-parse``
+
+- ``make test``
+
 ![Image](run-test.png)
-
-Logging in to the ieng6 account (directory should be on the server):
-
-Compiling and running tests:
 
 ### Copying and Running the Tests in One Line
 
