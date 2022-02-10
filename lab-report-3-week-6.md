@@ -2,7 +2,7 @@
 
 [Back to main page](index.html)
 
-### Copying the markdown-parse directory to the ieng6 account:
+### Copying the markdown-parse directory to the ieng6 account
 
 Command to copy: ``scp -r *.java *.md lib/ makefile ieng6:markdown-parse/``
 
