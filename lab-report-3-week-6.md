@@ -1,4 +1,4 @@
-# Week 6 Lab Report - How To Copy Whole Directories
+# Week 6 Lab Report - Copying Whole Directories with `scp -r`
 
 [Back to main page](index.html)
 
