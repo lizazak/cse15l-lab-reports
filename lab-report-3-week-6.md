@@ -2,13 +2,13 @@
 
 [Back to main page](index.html)
 
-1. **Copying the markdown-parse directory to the ieng6 account:**
+### Copying the markdown-parse directory to the ieng6 account:
 
 Command to copy: ``scp -r *.java *.md lib/ makefile ieng6:markdown-parse/``
 
 ![Image](copy-dir.png)
 
-2. **Logging on to ieng6 account and compiling/running tests**
+### Logging on to ieng6 account and compiling/running tests
 
 ![Image](run-test.png)
 
@@ -16,7 +16,7 @@ Logging in to the ieng6 account (directory should be on the server):
 
 Compiling and running tests:
 
-3. **Copying and Running the Tests in One Line**
+### Copying and Running the Tests in One Line
 
 Command to run in one line: ``scp -r *.java *.md lib/ makefile ieng6:markdown-parse/; ssh ieng6 "cd markdown-parse; make test"``
 
