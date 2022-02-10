@@ -1,4 +1,4 @@
-**Welcome to Liza Zakharova's page!**
+# Welcome to Liza Zakharova's page!
 
 ## Lab Report Pages
 
