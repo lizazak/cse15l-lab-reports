@@ -8,7 +8,9 @@
 
 ### Snippet 1 Test Details
 
-Should produce: 
+Should produce:
+
+[`google.com, google.com, google.com]
 
 How I turned it into a test:
 
@@ -18,6 +20,9 @@ Test failure in the JUnit output:
 Full stack trace:
 
 [another link](`google.com)`
+[`cod[e`](google.com)
+[`code]`](ucsd.edu)
+
 
 
 ### Snippet 2 Test Details
