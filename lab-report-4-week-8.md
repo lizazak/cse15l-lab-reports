@@ -12,7 +12,12 @@ Should produce:
 
 How I turned it into a test:
 
+**Test did NOT pass**
 Test failure in the JUnit output:
+
+Full stack trace:
+
+[another link](`google.com)`
 
 
 ### Snippet 2 Test Details
@@ -21,6 +26,7 @@ Should produce:
 
 How I turned it into a test:
 
+**Test did NOT pass**
 Test failure in the JUnit output:
 
 
@@ -30,6 +36,7 @@ Should produce:
 
 How I turned it into a test:
 
+**Test did NOT pass**
 Test failure in the JUnit output:
 
 
@@ -43,6 +50,7 @@ Should produce:
 
 How I turned it into a test:
 
+**Test did not pass**
 Test failure in the JUnit output:
 
 
@@ -52,6 +60,7 @@ Should produce:
 
 How I turned it into a test:
 
+**Test did not pass**
 Test failure in the JUnit output:
 
 
@@ -61,6 +70,7 @@ Should produce:
 
 How I turned it into a test:
 
+**Test did not pass**
 Test failure in the JUnit output:
 
 
