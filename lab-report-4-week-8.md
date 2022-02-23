@@ -20,7 +20,9 @@ Test failure in the JUnit output:
 Full stack trace:
 
 [another link](`google.com)`
+
 [`cod[e`](google.com)
+
 [`code]`](ucsd.edu)
 
 
