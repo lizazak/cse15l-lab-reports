@@ -8,43 +8,62 @@
 
 ### Snippet 1 Test Details
 
-Should produce:
+Expected Output:
 
-[`google.com, google.com, google.com]
+`[google.com, ucsd.edu]`
 
 How I turned it into a test:
+
+![Image](mysnip1-test.png)
 
 **Test did NOT pass**
 Test failure in the JUnit output:
 
-Full stack trace:
+![Image](myfail1.png)
 
-[another link](`google.com)`
+Fail including stack trace:
 
-[`cod[e`](google.com)
-
-[`code]`](ucsd.edu)
-
+![Image](myfail1-st.png)
 
 
 ### Snippet 2 Test Details
 
-Should produce: 
+Expected Output:
+
+`[a.com, example.com]`
 
 How I turned it into a test:
 
+![Image](mysnip2-test.png)
+
 **Test did NOT pass**
 Test failure in the JUnit output:
+
+![Image](myfail2.png)
+
+Fail including stack trace:
+
+![Image](myfail2-st.png)
 
 
 ### Snippet 3 Test Details
 
-Should produce: 
+Expected Output:
+
+`[https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`
 
 How I turned it into a test:
 
+![Image](mysnip3-test.png)
+
 **Test did NOT pass**
 Test failure in the JUnit output:
+
+![Image](myfail3.png)
+
+Fail including stack trace:
+
+![Image](myfail3-st.png)
 
 
 ## Link to markdown-parse directory my group reviewed:
@@ -53,32 +72,62 @@ Test failure in the JUnit output:
 
 ### Snippet 1 Test Details
 
-Should produce: 
+Expected Output:
+
+`[google.com, ucsd.edu]`
 
 How I turned it into a test:
 
-**Test did not pass**
+![Image](your-test1.png)
+
+**Test did NOT pass**
 Test failure in the JUnit output:
+
+![Image](your-fail1.png)
+
+Fail including stack trace:
+
+![Image](your-st1.png)
 
 
 ### Snippet 2 Test Details
 
-Should produce: 
+Expected Output:
+
+`[a.com, example.com]`
 
 How I turned it into a test:
 
-**Test did not pass**
+![Image](your-test2.png)
+
+**Test did NOT pass**
 Test failure in the JUnit output:
+
+![Image](your-fail2.png)
+
+Fail including stack trace:
+
+![Image](your-st2.png)
 
 
 ### Snippet 3 Test Details
 
-Should produce: 
+Expected Output:
+
+`[https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`
 
 How I turned it into a test:
 
-**Test did not pass**
+![Image](your-test3.png)
+
+**Test did NOT pass**
 Test failure in the JUnit output:
+
+![Image](your-fail3.png)
+
+Fail including stack trace:
+
+![Image](your-st3.png)
 
 
 ## Answers to Questions:
