@@ -8,62 +8,47 @@
 
 ### Snippet 1 Test Details
 
-Expected Output:
-
-`[google.com, ucsd.edu]`
+Expected Output: [`google.com, google.com, ucsd.edu]
 
 How I turned it into a test:
 
-![Image](mysnip1-test.png)
+![Image](test1.png)
 
 **Test did NOT pass**
+
 Test failure in the JUnit output:
 
-![Image](myfail1.png)
-
-Fail including stack trace:
-
-![Image](myfail1-st.png)
+![Image](fail1.png)
 
 
 ### Snippet 2 Test Details
 
-Expected Output:
-
-`[a.com, example.com]`
+Expected Output: [a.com, a.com(()), example.com]
 
 How I turned it into a test:
 
-![Image](mysnip2-test.png)
+![Image](test2.png)
 
 **Test did NOT pass**
+
 Test failure in the JUnit output:
 
-![Image](myfail2.png)
-
-Fail including stack trace:
-
-![Image](myfail2-st.png)
+![Image](fail2.png)
 
 
 ### Snippet 3 Test Details
 
-Expected Output:
-
-`[https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`
+Expected Output: [https://ucsd-cse15l-w22.github.io/]
 
 How I turned it into a test:
 
-![Image](mysnip3-test.png)
+![Image](test3.png)
 
 **Test did NOT pass**
+
 Test failure in the JUnit output:
 
-![Image](myfail3.png)
-
-Fail including stack trace:
-
-![Image](myfail3-st.png)
+![Image](fail3.png)
 
 
 ## Link to markdown-parse directory my group reviewed:
@@ -72,62 +57,47 @@ Fail including stack trace:
 
 ### Snippet 1 Test Details
 
-Expected Output:
-
-`[google.com, ucsd.edu]`
+Expected Output: [`google.com, google.com, ucsd.edu]
 
 How I turned it into a test:
 
-![Image](your-test1.png)
+![Image](rev-test1.png)
 
 **Test did NOT pass**
+
 Test failure in the JUnit output:
 
-![Image](your-fail1.png)
-
-Fail including stack trace:
-
-![Image](your-st1.png)
+![Image](rev-fail1.png)
 
 
 ### Snippet 2 Test Details
 
-Expected Output:
-
-`[a.com, example.com]`
+Expected Output: [a.com, a.com(()), example.com]
 
 How I turned it into a test:
 
-![Image](your-test2.png)
+![Image](rev-test2.png)
 
 **Test did NOT pass**
+
 Test failure in the JUnit output:
 
-![Image](your-fail2.png)
-
-Fail including stack trace:
-
-![Image](your-st2.png)
+![Image](rev-fail2.png)
 
 
 ### Snippet 3 Test Details
 
-Expected Output:
-
-`[https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`
+Expected Output: [https://ucsd-cse15l-w22.github.io/]
 
 How I turned it into a test:
 
-![Image](your-test3.png)
+![Image](rev-test3.png)
 
 **Test did NOT pass**
+
 Test failure in the JUnit output:
 
-![Image](your-fail3.png)
-
-Fail including stack trace:
-
-![Image](your-st3.png)
+![Image](rev-fail3.png)
 
 
 ## Answers to Questions:
