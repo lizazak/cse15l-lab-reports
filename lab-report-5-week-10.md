@@ -1,66 +1,66 @@
-# Week 8 Lab Report - MarkdownParse Tests and their Corresponding Bugs
+# Week 10 Lab Report - MarkdownParse Tests and their Corresponding Bugs
 
 [Back to main page](index.html)
 
 Below will be two tests that had different outputs for my implementation versus the provided lab 9 implementation and details regarding the corresponding bug and how to fix it.
 
-#### How the tests were found:
+### How the tests were found:
 
 The tests were found by first running the `` bash script. sh > results.txt`` command two different times for each version of the MarkdownParse getLinks method. I then went out of both directories and used the command ``diff markdown-parse/results.txt cse15l-markdown-parse/results.txt`` to get the difference in outputs for each test file. From there, I was able to look at individual tests and figure out which ones had the right implementation, and which ones had bugs in one of the methods.
 
-### Test 1
+## Test 1
 
-#### Test 1 contents:
+### Test 1 contents:
 
 ![Image](201-contents.png)
 
-#### Which one is correct?:
+### Which one is correct?:
 
 Using Github preview, the md file 201.md should not have any links.
 
-**Preview**
+### Preview
 
 ![Image](preview-1.png)
 
-Expected output: ``[]`` 
+**Expected Output:** ``[]`` 
 
-Actual Outputs:
+**Actual Outputs:**
 
 ![Image](diff-output-1.png)
 
 Therefore, my implementation is correct and the provided lab 9 implementation is incorrect.
 
-#### Bug decription:
+### Bug decription:
 
 The reason the provided implementation identifies "baz" as a link is because there is no if-statement in the getLinks method that checks whether or not the closing bracket and open parentheses are adjacent. In order to fix this bug and have the implementation print an empty list, you could add a check for whether or not the "]" and ")" in the same if statement as the one below the potential link, as shown below:
 
 ![Image](bug-code-1.png)
 
-### Test 2
+## Test 2
 
-#### Test 2 contents:
+### Test 2 contents:
 
 ![Image](488-contents.png)
 
-#### Which one is correct?:
+### Which one is correct?:
 
 Using Github preview, the md file 488.md should have one link "my uri".
 
-**Preview**
+### Preview
 
 ![Image](preview-2.png)
 ![Image](exp-ss.png)
 
 
-Expected output: ``[my uri]``
+**Expected Output:** ``[my uri]``
 
-Actual Outputs:
+**Actual Outputs:**
 
 ![Image](diff-output-2.png)
 
 Based on the expected output and actual output, my output is incorrect because the link should not include the "/", "<", and ">", as shown by how the link is expected to look. The lab 9 provided implementation is also incorrect because it just had an empty list instead of one containing the correct link.
 
-#### Bug decription:
+### Bug decription:
 
 The reason the provided implementation identifies no links is because it looks at if potential links contains spaces, and if they do it does not identify it as a link. The if-statement that checks for this is below:
 
