@@ -49,6 +49,9 @@ Using Github preview, the md file 488.md should have one link "my uri".
 ### Preview
 
 ![Image](preview-2.png)
+
+### Expected Link
+
 ![Image](exp-ss.png)
 
 
