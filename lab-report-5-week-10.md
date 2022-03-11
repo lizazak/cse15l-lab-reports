@@ -22,9 +22,9 @@ Using Github preview, the md file 201.md should not have any links.
 
 ![Image](preview-1.png)
 
-**Expected Output:** ``[]`` 
+### Expected Output: ``[]`` 
 
-**Actual Outputs:**
+### Actual Outputs:
 
 ![Image](diff-output-1.png)
 
@@ -52,9 +52,9 @@ Using Github preview, the md file 488.md should have one link "my uri".
 ![Image](exp-ss.png)
 
 
-**Expected Output:** ``[my uri]``
+### Expected Output: ``[my uri]``
 
-**Actual Outputs:**
+### Actual Outputs:
 
 ![Image](diff-output-2.png)
 
