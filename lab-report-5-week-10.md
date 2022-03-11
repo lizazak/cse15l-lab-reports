@@ -6,7 +6,7 @@ Below will be two tests that had different outputs for my implementation versus 
 
 ### How the tests were found:
 
-The tests were found by first running the `` bash script. sh > results.txt`` command two different times for each version of the MarkdownParse getLinks method. I then went out of both directories and used the command ``diff markdown-parse/results.txt cse15l-markdown-parse/results.txt`` to get the difference in outputs for each test file. From there, I was able to look at individual tests and figure out which ones had the right implementation, and which ones had bugs in one of the methods.
+The tests were found by first running the `` bash script.sh > results.txt`` command two different times for each version of the MarkdownParse getLinks method (the script.sh file from the given markdown-parse repository was used and I printed the md file for each result). I then went out of both directories and used the command ``diff markdown-parse/results.txt cse15l-markdown-parse/results.txt`` to get the difference in outputs for each test file. From there, I was able to look at individual tests and figure out which tests yielded different results for the two implementations, and which implementations had bugs in them.
 
 ## Test 1
 
