@@ -28,7 +28,7 @@ Using Github preview, the md file 201.md should not have any links.
 
 ![Image](diff-output-1.png)
 
-Therefore, my implementation is correct and the provided lab 9 implementation is incorrect.
+Therefore, my implementation of the getLinks method for this test is correct and the provided lab 9 implementation is incorrect.
 
 ### Bug decription:
 
